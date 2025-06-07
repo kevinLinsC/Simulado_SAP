@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="Página-1" id="vLX2boT9rWb72-ep0jj0">
+    <mxGraphModel dx="1665" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" style="" parent="0" />
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-1" value="USUARIO" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_I14L9RmCjgiFjKXTJyb-2" target="_I14L9RmCjgiFjKXTJyb-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-2" value="CADASTRAR LIVRO" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="60" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-4" value="EDITAR INFORMAÇÕES DO LIVRO" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="160" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_I14L9RmCjgiFjKXTJyb-4" target="_I14L9RmCjgiFjKXTJyb-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="92" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-6" value="VER LIVROS CADASTRADOS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="260" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_I14L9RmCjgiFjKXTJyb-6" target="_I14L9RmCjgiFjKXTJyb-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_I14L9RmCjgiFjKXTJyb-8" target="_I14L9RmCjgiFjKXTJyb-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-8" value="REGISTRAR-SE" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="370" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_I14L9RmCjgiFjKXTJyb-11" target="_I14L9RmCjgiFjKXTJyb-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_I14L9RmCjgiFjKXTJyb-11" value="EXCLUIR LIVRO" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="480" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-_Ndde8ILxH2Achc3BvM-1" value="Camada sem nome" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

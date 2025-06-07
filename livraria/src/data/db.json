@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "id": "94db",
+      "nome": "kevin",
+      "email": "kevin@hotmail.com"
+    }
+  ],
+  "livros": [
+    {
+      "id": "1b16",
+      "titulo": "joao",
+      "nomeAutor": "joao",
+      "genero": "joao",
+      "usuarioId": "2127"
+    }
+  ]
+}
