@@ -6,6 +6,7 @@ import App from "./App.jsx"
 import PaginaErro from "./pages/PaginaErro.jsx"
 import CadastroUsuario from "./pages/cadastro-usuario/CadastroUsuario.jsx"
 import CadastroLivro from "./pages/cadastro-livros/CadastroLivro.jsx"
+import EditarLivro from './pages/editar-livro/EditarLivro.jsx'
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: "/Cadastro-livro",
                 element: <CadastroLivro />
+            },
+            {
+                path: "/Editar-livro",
+                element: <EditarLivro />
             }
         ]
     }

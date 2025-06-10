@@ -20,6 +20,7 @@ import { useState } from 'react';
 
 // Importação das funções de InserirUsuario e verificaEmail do hook.
 import { useInserirLivro } from "../../hooks/useApi";
+import { useListaUsuarios } from '../../hooks/useApi';
 
 // Importação estilos.
 import styles from './RegistrarLivro.module.css'
@@ -29,6 +30,8 @@ const RegistrarLivro = () => {
 
   // Inicialização das funções.
   const { inserirLivro } = useInserirLivro();
+
+  const usuarios = useListaUsuarios();
 
   const {
     register,
@@ -151,6 +154,30 @@ const RegistrarLivro = () => {
                         </Dropdown>
                     </Col>
                   </Row>
+
+                  <Row>
+                    <Col>
+                        <FloatingLabel controlId='floatingSelectTipo' label="usuario" className="mb-5">
+                          <Form.Select
+                            {...register("usuario", {
+                              validate: (value) => value != "Nenhum" || "Escolha um usuario",
+                            })}
+                          >
+                            <option value="Nenhum">Escolha um usuario</option>
+                            {usuarios.map((user) => (
+                              <option 
+                                key={user.id}
+                                value={user.nome}
+                              >
+                                {user.nome}
+                              </option>
+                            ))}
+                          </Form.Select>
+                          {errors.usuario && (<p className="error">{errors.usuario.message}</p>)}
+                        </FloatingLabel>
+                    </Col>
+                  </Row>
+
 
                   <Container className={styles.caixaBotao}>
                     <Button className={styles.botao} type="submit">Cadastrar</Button>
